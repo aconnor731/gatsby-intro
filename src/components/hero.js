@@ -55,9 +55,6 @@ const Hero = () => {
         <ImageBackground Tag="section" fluid={image.sharp.fluid}>
           <TextBox>
             <h1>The Blog of Austin Connor</h1>
-            <p>
-                <Link to="/about/">Learn about me &rarr;</Link>
-            </p>
           </TextBox>
         </ImageBackground>
     )
