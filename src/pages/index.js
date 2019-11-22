@@ -11,7 +11,7 @@ export default () => {
 
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <Layout>
         <h2>Read my blog</h2>
         {posts.map(post => {
