@@ -13,7 +13,6 @@ export default () => {
     <>
       {/* <Hero /> */}
       <Layout>
-        <h2>Read my blog</h2>
         {posts.map(post => {
           return (
             <>
@@ -21,10 +20,10 @@ export default () => {
               title={post.title}
               description={post.author}
             />
-            <PostPreview key={post.slug} post={post} />
+            {/* <PostPreview key={post.slug} post={post} /> */}
             </>
           )})}
-        <Insta />
+        {/* <Insta /> */}
       </Layout>
     </>
   )

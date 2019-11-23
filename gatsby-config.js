@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: 'Frontend Masters Gatsby Workshop',
-        description: 'A site we built together during a full-day workshop',
+        title: 'Austin Connor',
+        description: 'A software engineer solving problems for a better tomorrow.',
         author: 'Austin'
     },
     plugins: [
