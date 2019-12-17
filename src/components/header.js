@@ -33,11 +33,11 @@ const Header = () => (
         padding: 0.5rem;
       `}
     >
-        <NavLink to="/" fontWeight={"bold"}>Austin Connor</NavLink>
+        <NavLink to="/">Austin Connor</NavLink>
         <nav css={css`margin-top: 0;`}>
             <NavLink to="/" activeClassName={"current-page"}>Home</NavLink>
             <NavLink to="/about/" activeClassName={"current-page"}>About</NavLink>
-            <NavLink to="/mywork/" activeClassName={"current-page"}>My Work</NavLink>
+            <NavLink to="/mywork/" activeClassName={"current-page"}>Work</NavLink>
         </nav>
 
     </header>

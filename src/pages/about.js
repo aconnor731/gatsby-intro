@@ -4,12 +4,17 @@ import Layout from '../components/layout'
 
 export default () => (
     <Layout>
-      <h1>About Me</h1>
-      <p>This is my personal website.</p>
-      <h2>Fun Facts About Me:</h2>
+      <h2>About Me</h2>
       <ul>
         <li>
-          Favorite movie is The 40 Year Old Virgin or pretty much
+          I started my career in software development roughly 5 
+          years ago through self-teaching and &nbsp;
+          <a href="https://freecodecamp.org" target="blank">
+            freeCodeCamp.org
+            </a>
+        </li>
+        <li>
+          My favorite movie is The 40 Year Old Virgin or pretty much
           anything by Judd Apatow.
         </li>
       </ul>

@@ -4,13 +4,18 @@ import styled from '@emotion/styled'
 export default () => {
 
     return (
-      <h4>This site is hosted on the &nbsp;
-        <a 
-          href="https://cloud.google.com/compute/"
-          target="blank"
-        >
-          Google Cloud Platform Compute Engine.
-        </a>
-      </h4>
+      <>
+        <p>This site is hosted on &nbsp;
+          <a 
+            href="https://cloud.google.com/compute/"
+            target="blank"
+          >
+            Google Cloud Platform's Compute Engine.
+          </a>
+        </p>
+        <p>
+          The site was also built with GraphQL and Gatsby.js
+        </p>
+      </>
     )
 }
