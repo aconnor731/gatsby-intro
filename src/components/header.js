@@ -42,9 +42,10 @@ const Header = () => (
             {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"></path>
             </svg> */}
+        <NavLink to="/">Austin Connor</NavLink>
             <NavLink to="/" activeClassName={"current-page"}>Home</NavLink>
             <NavLink to="/about/" activeClassName={"current-page"}>About</NavLink>
-            <NavLink to="/mywork/" activeClassName={"current-page"}>My Work</NavLink>
+            <NavLink to="/mywork/" activeClassName={"current-page"}>Work</NavLink>
         </nav>
 
     </header>
