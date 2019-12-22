@@ -29,12 +29,19 @@ const Header = () => (
         border-bottom: 1px solid #ddd;
         display: flex;
         justify-content: space-between;
-        #padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2);
         padding: 0.5rem;
+
+        nav {
+          margin-top: 0;
+
+        }
       `}
     >
         <NavLink to="/" fontWeight={"bold"}>Austin Connor</NavLink>
-        <nav css={css`margin-top: 0;`}>
+        <nav>
+            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"></path>
+            </svg> */}
             <NavLink to="/" activeClassName={"current-page"}>Home</NavLink>
             <NavLink to="/about/" activeClassName={"current-page"}>About</NavLink>
             <NavLink to="/mywork/" activeClassName={"current-page"}>My Work</NavLink>
