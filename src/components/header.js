@@ -35,18 +35,41 @@ const Header = () => (
           margin-top: 0;
 
         }
+
+        @media screen and (min-width: 499px) {
+          .hamburger {
+            display: none;
+          }
+        }
+
+        @media screen and (max-width: 499px) {
+          .hamburger {
+            width: 20px;
+            height: 20px;
+          }
+
+          .hamburger:hover {
+            cursor: pointer;
+          }
+
+          nav {
+            display: none;
+          }
+        }
+
+
       `}
     >
+
+        <svg className="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"></path>
+        </svg>
         <nav>
-            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"></path>
-            </svg> */}
         <NavLink to="/">Austin Connor</NavLink>
             <NavLink to="/" activeClassName={"current-page"}>Home</NavLink>
             <NavLink to="/about/" activeClassName={"current-page"}>About</NavLink>
             <NavLink to="/mywork/" activeClassName={"current-page"}>Work</NavLink>
         </nav>
-
     </header>
 )
 
