@@ -23,7 +23,7 @@ const NavLink = styled(Link)`
 `
 
 const NavMenu = () => (
-  <nav>
+  <nav className="nav-menu">
     <NavLink to="/">Austin Connor</NavLink>
     <NavLink to="/" activeClassName={"current-page"}>Home</NavLink>
     <NavLink to="/about/" activeClassName={"current-page"}>About</NavLink>
@@ -40,7 +40,7 @@ const SmallScreenNavMenu = () => (
       <Link to="/about/">About</Link>
     </div>
     <div className="navlink">
-      <Link to="/mywork/">Work</Link>
+      <Link to="/mywork/"><p>Work</p></Link>
     </div>
   </div>
 )
@@ -57,9 +57,9 @@ const Header = () => {
         justify-content: space-between;
         flex-direction: column;
 
-        nav {
-          margin-top: 0;
-
+        .nav-menu {
+          height: 100%;
+          margin: 0.5rem 0.5rem;
         }
 
         @media screen and (min-width: 499px) {
@@ -75,12 +75,12 @@ const Header = () => {
             padding: 0 0 0 0.5rem;
           }
 
-          .hamburger:hover {
-            cursor: pointer;
+          .nav-menu {
+            display: none;
           }
 
-          nav {
-            display: none;
+          .hamburger:hover {
+            cursor: pointer;
           }
 
           .small-screen-nav-menu {
