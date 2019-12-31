@@ -14,6 +14,10 @@ export default () => (
             </a>
         </li>
         <li>
+          I received my B.A. in Physics from the University
+          of Nebraska-Lincoln in August, 2018.
+        </li>
+        <li>
           My favorite movie is The 40 Year Old Virgin or pretty much
           anything by Judd Apatow.
         </li>
